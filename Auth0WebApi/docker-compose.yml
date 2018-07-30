@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  auth0webapi:
+    image: ${DOCKER_REGISTRY}auth0webapi
+    build:
+      context: .
+      dockerfile: Auth0WebApi/Dockerfile
