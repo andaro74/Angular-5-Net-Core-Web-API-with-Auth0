@@ -7,13 +7,10 @@ import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
 import { HomeComponent } from './home/home.component';
-import { CounterComponent } from './counter/counter.component';
-import { FetchDataComponent } from './fetch-data/fetch-data.component';
 
 import { AuthService } from './auth/auth.service';
 import { UserComponent } from './user/user.component';
 import { ProfileComponent } from './profile/profile.component';
-import { CallbackComponent } from './callback/callback.component';
 import { TestComponent } from './test/test.component';
 
 @NgModule({
@@ -21,11 +18,8 @@ import { TestComponent } from './test/test.component';
     AppComponent,
     NavMenuComponent,
     HomeComponent,
-    CounterComponent,
-    FetchDataComponent,
     UserComponent,
     ProfileComponent,
-    CallbackComponent,
     TestComponent
   ],
   imports: [
@@ -34,8 +28,6 @@ import { TestComponent } from './test/test.component';
     FormsModule,
     RouterModule.forRoot([
       { path: '', component: HomeComponent, pathMatch: 'full' },
-      { path: 'counter', component: CounterComponent },
-      { path: 'fetch-data', component: FetchDataComponent },
       { path: 'profile', component: ProfileComponent },
       { path: 'userinfo', component: UserComponent },
       { path: 'test', component: TestComponent },
