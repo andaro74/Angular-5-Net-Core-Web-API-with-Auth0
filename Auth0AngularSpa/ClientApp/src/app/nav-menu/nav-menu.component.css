@@ -2,6 +2,10 @@ li .glyphicon {
     margin-right: 10px;
 }
 
+li {
+  cursor: pointer;
+}
+
 /* Highlighting rules for nav menu items */
 li.link-active a,
 li.link-active a:hover,
