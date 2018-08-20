@@ -5,8 +5,6 @@ VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auth0WebApi", "Auth0WebApi\Auth0WebApi\Auth0WebApi.csproj", "{5F572260-4529-4661-BAB0-D67708F2AC70}"
 EndProject
-Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "Auth0WebApi\docker-compose.dcproj", "{072E38D9-3C81-4CED-8FE0-0548AEF8D3B1}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientAngular", "Auth0AngularSpa\ClientAngular.csproj", "{FB482F78-C31E-4E66-B7E3-BF9F1357EC6A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{3E11B75C-7D15-4316-AD87-F5FF83390918}"
@@ -28,10 +26,6 @@ Global
 		{5F572260-4529-4661-BAB0-D67708F2AC70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F572260-4529-4661-BAB0-D67708F2AC70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F572260-4529-4661-BAB0-D67708F2AC70}.Release|Any CPU.Build.0 = Release|Any CPU
-		{072E38D9-3C81-4CED-8FE0-0548AEF8D3B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{072E38D9-3C81-4CED-8FE0-0548AEF8D3B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{072E38D9-3C81-4CED-8FE0-0548AEF8D3B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{072E38D9-3C81-4CED-8FE0-0548AEF8D3B1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FB482F78-C31E-4E66-B7E3-BF9F1357EC6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FB482F78-C31E-4E66-B7E3-BF9F1357EC6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB482F78-C31E-4E66-B7E3-BF9F1357EC6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
