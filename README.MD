@@ -31,3 +31,8 @@ Make sure to start both applications when running the sample
 #### Log In
 
 ![log in](https://andarito.blob.core.windows.net/general/ASPNETWEBAPIAUTH0LOGINGIN.JPG)
+
+
+### Logged In
+
+![log in](https://andarito.blob.core.windows.net/general/ASPNETWEBAPIAUTH0LOGEDIN.JPG)
