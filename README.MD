@@ -36,3 +36,6 @@ Make sure to start both applications when running the sample
 ### Logged In
 
 ![log in](https://andarito.blob.core.windows.net/general/ASPNETWEBAPIAUTH0LOGEDIN.JPG)
+
+### Profile Info
+![log in](https://andarito.blob.core.windows.net/general/ASPNETWEBAPIAUTH0PROFILE.JPG)
