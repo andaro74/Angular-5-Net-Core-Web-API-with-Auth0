@@ -19,4 +19,11 @@ Here is the authentication workflow that the Single Page Application will go thr
 Single Page Applications authenticate using an Implicit Grant flow. The idea is that the application will never have a access to the username and password typed by the user. It is the responsibility of a third party identity provider to authenticate the user and return a token that will allow the client application to get information about the user and having access to backend APIs.
 The code is available in my GitHub account.
 
+### Sample Application
+
+Clone the repository and build both of the applications: Client Angular and Auth0 WebApi
+Make sure to start both applications when running the sample
+
+### Before Login
+
 ![before login](https://andarito.blob.core.windows.net/general/ASPNETWEBAPIAUTH0INITIAL.JPG)
