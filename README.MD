@@ -24,6 +24,10 @@ The code is available in my GitHub account.
 Clone the repository and build both of the applications: Client Angular and Auth0 WebApi
 Make sure to start both applications when running the sample
 
-### Before Login
+### Start
 
 ![before login](https://andarito.blob.core.windows.net/general/ASPNETWEBAPIAUTH0INITIAL.JPG)
+
+#### Log In
+
+![log in](https://andarito.blob.core.windows.net/general/ASPNETWEBAPIAUTH0LOGINGIN.JPG)
