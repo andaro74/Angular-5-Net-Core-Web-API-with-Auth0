@@ -39,3 +39,14 @@ Make sure to start both applications when running the sample
 
 ### Profile Info
 ![log in](https://andarito.blob.core.windows.net/general/ASPNETWEBAPIAUTH0PROFILE.JPG)
+
+### Calling a public operation
+![log in](https://andarito.blob.core.windows.net/general/ASPNETWEBAPIAUTH0PUBLICCALL.JPG)
+
+### Calling a private operation
+![log in](https://andarito.blob.core.windows.net/general/ASPNETWEBAPIAUTH0PRIVATECALL.JPG)
+
+### Calling a private scope operation
+![log in](https://andarito.blob.core.windows.net/general/ASPNETWEBAPIAUTH0PRIVATESCOPE.JPG)
+
+
