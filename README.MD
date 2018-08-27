@@ -1,9 +1,9 @@
 # Auth0 + Angular 5 + .Net Core Web API
-Appeared in my [Blog](#https://medium.com/@andaro74/auth0-angular-5-net-core-web-api-fea1b10c8ef4)
+Appeared in my [Blog](https://medium.com/@andaro74/auth0-angular-5-net-core-web-api-fea1b10c8ef4)
 
 A couple of weeks ago I was working on a project in an Angular 5 Single Page Application that communicates with several .NET Core Web API Microservices. One of the main challenges I ran into was to find a way to authenticate the user among the different services that the application communicates with. After looking at different identity providers I decided to go with Auth0 as identity provider.
 
-I created a concept application based on the official documentation provided by [Auth0](#https://auth0.com/) and also with the contributions of online samples. You can find the complete code in [Github](#https://github.com/andaro74/Angular-5-Net-Core-Web-API-with-Auth0).
+I created a concept application based on the official documentation provided by [Auth0](https://auth0.com/) and also with the contributions of online samples. You can find the complete code in [Github](https://github.com/andaro74/Angular-5-Net-Core-Web-API-with-Auth0).
 
 ### Authentication Workflow
 
@@ -15,7 +15,7 @@ I created a concept application based on the official documentation provided by 
 6. The .NET Core Web Api validates the token and reads any claims sent in the access token
 7. Information about the authenticated user is available within the .NET Web API
 
-Single Page Applications authenticate via [Implicit Grant](#https://auth0.com/docs/api-auth/tutorials/implicit-grant) Implicit Grant flow. The idea is that the application will never have a access to the username and password. It is the responsibility of a third party identity provider to authenticate the user and return a token that will allow the client application to get information about the user and having access to back-end APIs.
+Single Page Applications authenticate via [Implicit Grant](https://auth0.com/docs/api-auth/tutorials/implicit-grant) Implicit Grant flow. The idea is that the application will never have a access to the username and password. It is the responsibility of a third party identity provider to authenticate the user and return a token that will allow the client application to get information about the user and having access to back-end APIs.
 
 ### Tutorial
 
@@ -113,6 +113,6 @@ Token authentication with Auth0 is really easy and there is plenty of documentat
 
 ### References
 
-[Angular 2 Login](#https://auth0.com/docs/quickstart/spa/angular2/01-login)
+[Angular 2 Login](https://auth0.com/docs/quickstart/spa/angular2/01-login)
 
-[My Blog](#https://medium.com/@andaro74/auth0-angular-5-net-core-web-api-fea1b10c8ef4)
+[My Blog](https://medium.com/@andaro74/auth0-angular-5-net-core-web-api-fea1b10c8ef4)
