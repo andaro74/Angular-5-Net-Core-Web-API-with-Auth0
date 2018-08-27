@@ -38,7 +38,8 @@ namespace Auth0WebApi
                     builder =>
                     {
                         builder
-                        .WithOrigins("https://localhost:44366")
+                        //.WithOrigins("https://localhost:44366")
+                        .AllowAnyOrigin()
                         .AllowAnyMethod()
                         .AllowAnyHeader()
                         .AllowCredentials();
